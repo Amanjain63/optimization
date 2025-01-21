@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyBlog</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>Welcome to My Blog</h1>
+    <p>Discover insights, stories, and ideas.</p>
+  </section>
+
+  <!-- Blog Section -->
+  <main>
+    <section class="blog-section" id="blogs">
+        <div class="blog-container">
+            <!-- Blog Post 1 -->
+            <article class="blog-card">
+              <img src="tech.jpg" alt="Tech Blog">
+              <h3>Tech Innovations in 2025</h3>
+              <p>Explore the latest technological trends and innovations shaping the future.</p>
+              <a href="#" class="read-more">Read More</a>
+            </article>
+            <!-- Blog Post 2 -->
+            <article class="blog-card">
+              <img src="travel.jpg" alt="Travel Blog">
+              <h3>Top 10 Travel Destinations</h3>
+              <p>Find out the best places to visit this year and make your travel dreams come true.</p>
+              <a href="#" class="read-more">Read More</a>
+            </article>
+            <!-- Blog Post 3 -->
+            <article class="blog-card">
+              <img src="rece.jpg" alt="Food Blog">
+              <h3>Delicious Recipes to Try</h3>
+              <p>Get inspired with easy-to-make recipes for your next meal or gathering.</p>
+              <a href="#" class="read-more">Read More</a>
+            </article>
+            <!-- Blog Post 4 -->
+            <article class="blog-card">
+              <img src="fitness.jpg" alt="Fitness Blog">
+              <h3>Fitness Tips for a Healthy Life</h3>
+              <p>Learn how to stay fit and maintain a healthy lifestyle with simple tips.</p>
+              <a href="#" class="read-more">Read More</a>
+            </article>
+            <!-- Blog Post 5 -->
+            <article class="blog-card">
+              <img src="edu.jpg" alt="Education Blog">
+              <h3>Top 5 Learning Resources in 2025</h3>
+              <p>Discover the best platforms and resources to expand your knowledge.</p>
+              <a href="#" class="read-more">Read More</a>
+            </article>
+            <!-- Blog Post 6 -->
+            <article class="blog-card">
+              <img src="Env.jpg" alt="Environment Blog">
+              <h3>Green Initiatives You Should Know</h3>
+              <p>Explore efforts and projects promoting sustainability and eco-friendliness.</p>
+              <a href="#" class="read-more">Read More</a>
+            </article>
+            <!-- Blog Post 7 -->
+            <article class="blog-card">
+              <img src="art.jpg" alt="Art Blog">
+              <h3>Art Trends and Inspirations</h3>
+              <p>Uncover the latest trends and inspirations in the art world.</p>
+              <a href="#" class="read-more">Read More</a>
+            </article>
+            <!-- Blog Post 8 -->
+            <article class="blog-card">
+              <img src="startup.jpg" alt="Startup Blog">
+              <h3>Successful Startups in 2025</h3>
+              <p>Read about the most innovative startups disrupting industries.</p>
+              <a href="#" class="read-more">Read More</a>
+            </article>
+            <!-- Add more posts similarly -->
+          </div>
+          
+      
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>&copy; 2025 MyBlog. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
